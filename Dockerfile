@@ -52,7 +52,6 @@ RUN apt-get install -y python-dev python-pip && \
   pika
 
 ENV PERL_MM_USE_DEFAULT 1
-ENV HTTP_USER_AGENT iTunes/12.8 
 
 RUN cpan Inline::Python && \
   cpan JSON::Validator
